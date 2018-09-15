@@ -35,7 +35,7 @@ class UserProfile(AbstractUser):
 
 class EmailVerifyRecord(models.Model):
     SEND_CHOICES = (
-        ("register",u"注册")
+        ("register",u"注册"),
         ("forget",u"找回密码")
     )
 
